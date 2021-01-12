@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: "Baskerville";
+    src: url('fonts/BASKVILL.TTF') format("truetype");
+}
+@font-face {
+    font-family: "Muli";
+    font-style: normal;
+    src: url('fonts/Muli-VariableFont_wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Muli";
+    font-style: italic;
+    src: url('fonts/Muli-Italic-VariableFont_wght.ttf') format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: "Muli";
+    font-size: calc(4px + 2vmin);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-family: "Baskerville";
+    font-size: calc(16px + 8vmin);
+    font-weight: normal;
+}
+h2 {
+    font-family: "Baskerville";
+    font-size: calc(10px + 5vmin);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: normal;
+}
+a{
+    color: #666666;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.watercolor-page{
+    display: grid;
+    background-color: white;
+    /*grid-template-columns: 1fr 5fr 1fr 2fr 1fr;
+    grid-template-rows: 25% 100px auto;*/
+}
+.watercolor-header{
+    /*background-color: rgba(255,192,203, .1);*/
+    position: fixed;
+    display: flex;
+    align-items: center;
+    /*height: calc(18px + 12vmin);*/
+    width: 100%;
+    mix-blend-mode: exclusion;
+    z-index: 5;
+}
+.watercolor-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    z-index: 1;
+}
+.watercolor-slides{
+    flex: auto;
+}
+.watercolor-slide{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.watercolor-category{
+    /*background-color: blue;*/
+    flex: 0 0 calc(18px + 9vmin);
+}
+.watercolor-category > h2{
+    color: #333333;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    margin: 0 auto;
+}
+.watercolor-sheet{
+    flex: 0 0 45vw;
+    background-image: url('images/watercolor-background-body.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    -webkit-filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.4));
+    filter:         drop-shadow(0px 0px 12px rgba(0,0,0,0.4));
 }
 
-.App-link {
-  color: #61dafb;
+.watercolor-sidebar{
+    flex: 1;
+    margin-left: calc(18px + 9vmin);
+    margin-right: calc(18px + 9vmin);
+}
+.watercolor-image{
+    width: 90%;
+    margin: 0 5%;
+    mix-blend-mode: multiply;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.watercolor-leader{
+    margin-top: calc(18px + 9vmin);
+    padding-top: calc(9px + 4.5vmin);
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+}
+.watercolor-beginning{
+    flex: 0 0 45vw;
+    position: relative;
+    padding-bottom: calc(45vw * 0.2286 + 10px + 5vmin);
+}
+.watercolor-beginning h1{
+    margin-block-start: calc(10px + 5vmin);
+    margin-block-end: calc(10px + 5vmin);
+}
+.watercolor-beginning .watercolor-sheet-tip{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('images/watercolor-background-tip.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    -webkit-filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.4));
+    filter:         drop-shadow(0px 0px 12px rgba(0,0,0,0.4));
+}
+.watercolor-introduction{
+    /*background-color: teal;*/
+    flex: 1;
+    margin-left: calc(18px + 9vmin);
+    margin-right: calc(18px + 9vmin);
+}
+.watercolor-introduction p{
+    margin-top: calc(32px + 16vmin);
+}
+
+.watercolor-follower{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+}
+.watercolor-ending{
+    flex: 0 0 45vw;
+    position: relative;
+    padding-bottom: calc(18px + 9vmin);
+}
+.watercolor-ending .watercolor-sheet-tip{
+    width: 100%;
+    height: calc(45vw * 0.2286);
+    padding-bottom: calc(9px + 4.5vmin);
+    position: relative;
+    z-index: -1;
+    background-image: url('images/watercolor-background-tip-flip.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    -webkit-filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.4));
+    filter:         drop-shadow(0px 0px 12px rgba(0,0,0,0.4));
+}
+.watercolor-introduction{
+    /*background-color: teal;*/
+    flex: 1;
+    margin-left: calc(18px + 9vmin);
+    margin-right: calc(18px + 9vmin);
+}
+
+.menu-logo{
+    height: calc(6px + 3vmin);
+    width: calc(6px + 3vmin);
+    margin: calc(6px + 3vmin);
+    display: inline-block;
+    box-sizing: border-box;
+    border: #DDDDDD solid calc(1px + 0.5vmin);
+    transition-property: margin-left;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(1,-.2,0,1.2);
+}
+.menu-logo.scrolled{
+    margin-left: calc(24px + 12vmin + 45vw);
+}
+.title-name{
+    color: white;
+}
+
+.watercolor-pens{
+    position: absolute;
+    z-index: 0;
+    top: calc(-16vw + 6vmin);
+    right: -4vw;
+    width: 64vw;
+    -webkit-filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.2));
+    filter:         drop-shadow(0px 0px 12px rgba(0,0,0,0.2));
 }

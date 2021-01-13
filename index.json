@@ -1,0 +1,60 @@
+{
+    "sections": [
+        {
+            "title": "Products",
+            "slides": [
+                {
+                    "title": "osmo",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "10 Week Project",
+                    "topics": "Process – Ethos",
+                    "description": "Challenging the importance of the fridge."
+                },
+                {
+                    "title": "Atrium",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "1 Week Project",
+                    "topics": "Surface Modeling",
+                    "description": "Oil and vinegar bottle."
+                },
+                {
+                    "title": "Poly",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "2 Week Project",
+                    "topics": "Reuse – Ethos",
+                    "description": "Open source garden tools."
+                }
+            ]
+        },
+        {
+            "title": "Textiles",
+            "slides": [
+                {
+                    "title": "Hopper",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "3 Week Project",
+                    "topics": "",
+                    "description": "Train surfer backpack"
+                },
+                {
+                    "title": "Train Mask",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "topics": "Mending — Reuse",
+                    "description": "Made from scrap webbing from lumber cars"
+                }
+            ]
+        },
+        {
+            "title": "Other",
+            "slides": [
+                {
+                    "title": "Drawings",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "",
+                    "topics": "",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

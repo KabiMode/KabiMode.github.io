@@ -1,0 +1,30 @@
+{
+    "sections": [
+        {
+            "title": "Textiles",
+            "slides": [
+                {
+                    "title": "Hopper",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "3 Week Project",
+                    "topics": "",
+                    "description": "Train surfer backpack"
+                },
+                {
+                    "title": "Train Set",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "Personal Project",
+                    "topics": "Mending — Reuse",
+                    "description": "Made from scrap webbing from lumber cars"
+                },
+                {
+                    "title": "Wrist Guards",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "subtitle": "Personal Project",
+                    "topics": "Mending — Reuse",
+                    "description": "Upsized from a broken, second-hand pair"
+                }
+            ]
+        }
+    ]
+}

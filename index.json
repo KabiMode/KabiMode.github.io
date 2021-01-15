@@ -5,13 +5,15 @@
             "slides": [
                 {
                     "title": "osmo",
+                    "url": "/osmo",
                     "image": "/images/osmo/watercolor-thumbnail.png",
                     "subtitle": "10 Week Project",
                     "topics": "Process – Ethos",
                     "description": "Challenging the importance of the fridge."
                 },
                 {
-                    "title": "Atrium",
+                    "title": "Mitrium",
+                    "url": "/mitrium",
                     "image": "/images/osmo/watercolor-thumbnail.png",
                     "subtitle": "1 Week Project",
                     "topics": "Surface Modeling",
@@ -19,6 +21,7 @@
                 },
                 {
                     "title": "Poly",
+                    "url": "/poly",
                     "image": "/images/osmo/watercolor-thumbnail.png",
                     "subtitle": "2 Week Project",
                     "topics": "Reuse – Ethos",
@@ -31,16 +34,11 @@
             "slides": [
                 {
                     "title": "Hopper",
+                    "url": "/hopper",
                     "image": "/images/osmo/watercolor-thumbnail.png",
                     "subtitle": "3 Week Project",
                     "topics": "",
                     "description": "Train surfer backpack"
-                },
-                {
-                    "title": "Train Mask",
-                    "image": "/images/osmo/watercolor-thumbnail.png",
-                    "topics": "Mending — Reuse",
-                    "description": "Made from scrap webbing from lumber cars"
                 }
             ]
         },
@@ -49,6 +47,7 @@
             "slides": [
                 {
                     "title": "Drawings",
+                    "url": "/drawings",
                     "image": "/images/osmo/watercolor-thumbnail.png",
                     "subtitle": "",
                     "topics": "",

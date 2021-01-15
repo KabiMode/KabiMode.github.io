@@ -20,4 +20,3 @@ AnimatedText.prototype={
   constructor:AnimatedText,
   stop:function(){clearInterval(this.t1);clearInterval(this.t2);}
 };
-console.log(AnimatedText);

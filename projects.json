@@ -1,0 +1,30 @@
+{
+    "projects": [
+        {
+            "slug": "/osmo",
+            "title": "osmo",
+            "children": [
+                {
+                    "component": "FullImage",
+                    "props": {
+                        "src": "/images/osmo/hero-shot.png",
+                        "alt": "osmo hero image"
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "/mitrium",
+            "title": "Mitrium",
+            "children": [
+                {
+                    "component": "FullImage",
+                    "props": {
+                        "src": "/images/mitrium/hero-shot.jpg",
+                        "alt": "Mitrium hero image"
+                    }
+                }
+            ]
+        }
+    ]
+}

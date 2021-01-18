@@ -5,10 +5,16 @@
             "title": "osmo",
             "children": [
                 {
-                    "component": "FullImage",
+                    "component": "ProjectFullImage",
                     "props": {
                         "src": "/images/osmo/hero-shot.png",
                         "alt": "osmo hero image"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "osmo"
                     }
                 }
             ]
@@ -18,10 +24,73 @@
             "title": "Mitrium",
             "children": [
                 {
-                    "component": "FullImage",
+                    "component": "ProjectFullImage",
                     "props": {
                         "src": "/images/mitrium/hero-shot.jpg",
                         "alt": "Mitrium hero image"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "Mitrium"
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "/poly",
+            "title": "Poly",
+            "children": [
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/hero-shot.jpg",
+                        "alt": "Mitrium hero image"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "Poly"
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "/hopper",
+            "title": "Hopper",
+            "children": [
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/hero-shot.jpg",
+                        "alt": "Mitrium hero image"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "Hopper"
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "/drawings",
+            "title": "Drawings",
+            "children": [
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/hero-shot.jpg",
+                        "alt": "Mitrium hero image"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "Drawings"
                     }
                 }
             ]

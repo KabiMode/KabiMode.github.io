@@ -22,7 +22,7 @@
                 {
                     "title": "Poly",
                     "url": "/poly",
-                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "image": "/images/poly/watercolor-thumbnail.png",
                     "subtitle": "2 Week Project",
                     "topics": "Reuse – Ethos",
                     "description": "Open source garden tools."
@@ -35,7 +35,7 @@
                 {
                     "title": "Hopper",
                     "url": "/hopper",
-                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "image": "/images/hopper/watercolor-thumbnail.png",
                     "subtitle": "3 Week Project",
                     "topics": "",
                     "description": "Train surfer backpack"
@@ -48,7 +48,7 @@
                 {
                     "title": "Drawings",
                     "url": "/drawings",
-                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "image": "/images/drawings/watercolor-thumbnail.png",
                     "subtitle": "",
                     "topics": "",
                     "description": ""

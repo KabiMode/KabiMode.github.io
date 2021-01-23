@@ -7,14 +7,362 @@
                 {
                     "component": "ProjectFullImage",
                     "props": {
+                        "isTitle": true,
                         "src": "/images/osmo/hero-shot.png",
                         "alt": "osmo hero image"
                     }
                 },
                 {
+                    "component": "ProjectTitle",
+                    "props": {
+                        "value": "# osmo  \n## **Evaporative Refrigerator**"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Keeps fresh foods **cool and healthy**",
+                        "smallText": true,
+                        "src": "/images/osmo/water-detail.png",
+                        "alt": "Water on the lid of osmo",
+                        "unfinished": true
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Using only the **power of water**",
+                        "imageSide": "left",
+                        "src": "/images/osmo/topdown-intro.png",
+                        "alt": "Top-down view of osmo without a lid"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Refrigerators **create food waste**  \nThe effectiveness of refrigeration has made the fridge the heart of modern food storage. Even so, home refrigerators hide untold collections of  wilted and spoiled food in the unseen crevices of their shelves and crispers. Worse, the natural mechanism of a traditional fridge is detrimental to the longevity of unpackaged foods, further increasing wasteful mess",
+                        "smallText": true,
+                        "src": "/images/osmo/messy-fridge.png",
+                        "alt": "Messy Fridge"
+                    }
+                },
+                {
+                    "component": "ProjectCycleThree",
+                    "props": {
+                        "value": "## The vicious cycle of the messy fridge",
+                        "stages": [
+                            {
+                                "src": "/images/osmo/cycle-1-1.png",
+                                "alt": "",
+                                "value": "## Buy food  \nIf eaten quickly, there is no problem, but it often only adds to the mess"
+                            },
+                            {
+                                "src": "/images/osmo/cycle-1-2.png",
+                                "alt": "",
+                                "value": "## Food goes bad  \nFruits and vegetables are especially messy, and spoil quickly in the low humidity"
+                            },
+                            {
+                                "src": "/images/osmo/cycle-1-3.png",
+                                "alt": "",
+                                "value": "## Push food back  \nOut of shame, fear, indifference, and lack of time. If it’s out of sight, it need not be dealt with"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Most fridges only get cleaned **twice in a year**  \nIt’s not your fault! The **first-in-last-out** design of refrigerators invites waste, especially because of how **unnecesarrily deep** and large most fridges are. Only a small percentage of the fridge can be is truly made use of.",
+                        "src": "/images/osmo/filo-fridge.png",
+                        "alt": "Diagram of fridge with different levels of accessability"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## “Should this go in the fridge, or be left on the counter?”  \nOften, **neither**. The fridge is too dry for most fresh foods; the counter, too warm.  \n\nAn ideal solution would give a home to foods whose needs are not met by the fridge-counter dichotomy.",
+                        "imageSide": "right",
+                        "imageWidth": "60%",
+                        "src": "/images/osmo/graph-conditions.png",
+                        "alt": "Graph of different foods and their ideal storage conditions on the axes of relative humidity and temperature"
+                    }
+                },
+                {
                     "component": "ProjectHeading",
                     "props": {
-                        "value": "osmo"
+                        "value": "## Most fruits and vegetables should be stored in a **cool and humid** environment"
+                    }
+                },
+                {
+                    "component": "ProjectColumns",
+                    "props": {
+                        "value": "## Conceptual Solution",
+                        "columns": [
+                            {
+                                "value": "## Must  \nFacilitate **better conditions** for fresh food storage  \n\n**Promote mindfulness** in food storage  \n\nFunction alongside existing methods"
+                            },
+                            {
+                                "value": "## Should  \nBe **small** enough to fit in any kitchen  \n\nBe **inexpensive and accessible**  \n\nRequire **no electronics** or external power"
+                            },
+                            {
+                                "value": "## Could  \nBe a **standalone solution** suitable for use in a van or tiny home"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/osmo/sketches-1.png",
+                        "alt": "Refinement Sketches"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Traditional **evaporative cooling**  \nThe pursued direction makes use of this process to cool and humidify food without the need for electricity.  \n\nThis natural technology that has been understood and utilized by various cultures throughout history in culinary and architectural contexts, but has yet to be brought to the modern kitchen.",
+                        "src": "/images/osmo/traditional-inspiration.png",
+                        "alt": "A Zeer full of vegitables, an oil painting of a boy drinking from a botijo, and an ancient Persian structure featuring passive air conditioning",
+                        "unfinished": true
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "Recent years have seen humanitarian efforts distributing and disseminate information about evaporative vegetable coolers in regions without power by humanitarian projects. Applying this technology in Industrialized regions would **decrease consumption and food waste** while **increasing household resiliancy**.",
+                        "imageSide": "left",
+                        "imageWidth": "60%",
+                        "src": "/images/osmo/humanitarian-inspiration.png",
+                        "alt": "An large evaporative vegitable cooler and a Movement Verein team member with a test series of four covered clay pot coolers "
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Applying evaporative cooling in a **modern western kitchen**  \nTo test the viability of evaporative cooling in an interior kitchen, I created a mockup of a typical pot-in-pot evaporative cooler.  \n\nA bowl partially submerged in a water-filled clay pot and covered with a damp cloth registered a drop in temperature of **eight degrees after three hours** of sitting on the counter.",
+                        "imageSide": "left",
+                        "src": "/images/osmo/poc-zeer.png",
+                        "alt": "A testing setup to evaluate whether evaporative cooling could work in an indoor kitchen"
+                    }
+                },
+                {
+                    "component": "ProjectColumns",
+                    "props": {
+                        "value": "## Using form to **improve habits**",
+                        "columns": [
+                            {
+                                "src": "/images/osmo/shape-good.png",
+                                "opacity": 0.5,
+                                "alt": "",
+                                "value": "## Okay  \n**Small**, deep container with sharp corners  \n\nA counter-top figure places fresh foods at a **cookie-jar level of access**, increasing the likeliness they will get eaten at all."
+                            },
+                            {
+                                "src": "/images/osmo/shape-better.png",
+                                "opacity": 0.8,
+                                "alt": "",
+                                "value": "## Good  \n**Shallow** box with sharp corners  \n\nA wide, shallow aspect ratio makes **all contents visible** while leaving no physical space for food to be pushed back into."
+                            },
+                            {
+                                "src": "/images/osmo/shape-best.png",
+                                "alt": "",
+                                "value": "## Best  \nShallow box with **rounded corners**.  \n\nLarge radiused internal corners eliminate crevaces so **food does not get lost**. They also make **cleaning easier** so users are more likely to clean any mess before it gets out of hand."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## The cycle of shoving food back is **corrected at multiple stages**"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/osmo/sketches-2.png",
+                        "alt": "Refinement Sketches"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/osmo/context-hand.png",
+                            "alt": "osmo on a counter holding vegetables"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## osmo **reduces food waste**  \nStore your vegetables and just add water. Sitting on the counter, osmo keeps food **visible, healthy, and fresh in the mind**.   \n\nLettuce, brocolli, peppers, carrots, cilantro, green onions, cucumbers, apples, berries, peas, root vegetables, stone fruits, nightshades, and many more keep best in osmo’s cool, humid environment.",
+                        "smallText": true,
+                        "src": "/images/osmo/in-the-home.png",
+                        "alt": "Drawing of vegetables being retrieved from osmo"
+                    }
+                },
+                {
+                    "component": "ProjectCycleThree",
+                    "props": {
+                        "value": "## The improved cycle using osmo",
+                        "stages": [
+                            {
+                                "src": "/images/osmo/cycle-2-1.png",
+                                "alt": "",
+                                "value": "## Buy food  \nBetter awareness of what’s already at home makes one less likely to buy more than they need"
+                            },
+                            {
+                                "src": "/images/osmo/cycle-2-2.png",
+                                "alt": "",
+                                "value": "## Food stays fresh  \nThe cool, humid interior gives a longer grace period in which food can be eaten"
+                            },
+                            {
+                                "src": "/images/osmo/cycle-2-3.png",
+                                "alt": "",
+                                "value": "## Food Gets Eaten  \nHigh visibility of food and habitual interaction means food is not forgotten"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectColumns",
+                    "props": {
+                        "value": "## How osmo cools",
+                        "columns": [
+                            {
+                                "src": "/images/osmo/cooling-1.png",
+                                "alt": "",
+                                "value": "## Water  \nFill the reservoir with **room-temperature water**"
+                            },
+                            {
+                                "src": "/images/osmo/cooling-2.png",
+                                "alt": "",
+                                "value": "## Air  \n**Dry air passes** around the cooler, stimulating evaporation"
+                            },
+                            {
+                                "src": "/images/osmo/cooling-3.png",
+                                "alt": "",
+                                "value": "## Cool  \n**Heat is sapped** by the evaporation, cooling the contents"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## The **hotter and dryer** the surroundings, the **more cooling** osmo provides."
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/osmo/basket-detail.jpg",
+                        "alt": "Drawing of the cooling cycle of osmo"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## Wire basket **improves airflow** and makes cleaning easy."
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Water poured **directly onto the sloped lid** runs onto the sealing ring into the reservoir.",
+                        "imageSide": "left",
+                        "src": "/images/osmo/water-pour.png",
+                        "alt": "Water being poured on to the sloped lid of osmo"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Removing the wire basket makes it easy to wipe out the **glazed inner surface**.",
+                        "src": "/images/osmo/cloth-wipe.jpg",
+                        "alt": "A cloth wiping the bottom of osmo"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/osmo/feet-handle.jpg",
+                        "alt": "Detail shot of osmo's lower handle and feet"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## Feet **improve airflow** and lower handles make for **easy lifting**."
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Design for manufacture  \nCeramic parts are **slip cast** in a porous, low-fire clay, mostly unglazed. Four pieces are cast initially from one and two part molds, and are joined together when leather-hard  \n\nBasket is made of stainless steel wire, bent and **spot welded**.  \n\nSealing ring is stitched together from **antimicrobial fabric** with webbing loops on the top for easy removal.",
+                        "imageWidth": "65%",
+                        "src": "/images/osmo/exploded.jpg",
+                        "alt": "Water being poured on to the sloped lid of osmo"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## Design for disassembly  \nAll materials are **natural** and fundamental, and each piece is made from a **single material**. No plastics or composites are used.",
+                        "imageWidth": "70%",
+                        "imageSide": "left",
+                        "src": "/images/osmo/laid-out.png",
+                        "alt": "Water being poured on to the sloped lid of osmo"
+                    }
+                },
+                {
+                    "component": "ProjectColumns",
+                    "props": {
+                        "value": "",
+                        "columns": [
+                            {
+                                "src": "/images/osmo/detail-ceramic.png",
+                                "alt": "",
+                                "value": "## Ceramic  \nCan be **crushed** and **dispersed** or used as planting medium. Ceramic vessels are also inherently useful."
+                            },
+                            {
+                                "src": "/images/osmo/detail-steel.png",
+                                "alt": "",
+                                "value": "## Stainless steel  \nPure metal can be easily **melted**. The basket can also be **reused** on its own for organization of pantry foods."
+                            },
+                            {
+                                "src": "/images/osmo/detail-fabric.png",
+                                "alt": "",
+                                "value": "## Fabric  \nNatural fibers can be **decomposed**, **burned**, or **repurposed** as rags"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/osmo/branding-hero.png",
+                        "alt": "Two osmo coolers on a table. One is wrapped in a branding slip. An unfolded branding strip sits upside down next to them revealing illustrated instructions."
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## Instructions included on reverse of branding slip"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "bleed": "full-bleed",
+                        "src": "/images/osmo/branding-strip.png",
+                        "alt": "Two osmo coolers on a table. One is wrapped in a branding slip. An unfolded branding strip sits upside down next to them revealing illustrated instructions."
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "imageWidth": "40%",
+                        "src": "/images/osmo/finisher-drawing.png",
+                        "alt": "Two osmo coolers on a table. One is wrapped in a branding slip. An unfolded branding strip sits upside down next to them revealing illustrated instructions."
                     }
                 }
             ]
@@ -26,6 +374,7 @@
                 {
                     "component": "ProjectFullImage",
                     "props": {
+                        "isTitle": true,
                         "src": "/images/mitrium/hero-shot.jpg",
                         "alt": "Mitrium hero image"
                     }
@@ -33,7 +382,49 @@
                 {
                     "component": "ProjectHeading",
                     "props": {
-                        "value": "Mitrium"
+                        "value": "# Mitrium  \n## Oil and Vinegar Bottle"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/bottle-closeup.png",
+                        "alt": "detail shot of the corks on the top of the bottle"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "imageWidth": "50%",
+                        "src": "/images/mitrium/sketches.png",
+                        "alt": "Four sketches of the bottle at various angles"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/process-1.png",
+                        "alt": "First half of CAD process"
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## One week surfacing project in solidworks"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/process-2.png",
+                        "alt": "Second half of CAD process"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/mitrium/bottle-pour.png",
+                        "alt": "Oil being poured out of one side of the bottle"
                     }
                 }
             ]

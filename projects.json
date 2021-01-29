@@ -3,6 +3,7 @@
         {
             "slug": "/osmo",
             "title": "osmo",
+            "popColor": "#4ea6a0",
             "children": [
                 {
                     "component": "ProjectFullImage",
@@ -393,6 +394,12 @@
                     }
                 },
                 {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## Inspired by pulsars, the klein bottle, and the human heart"
+                    }
+                },
+                {
                     "component": "ProjectFullImage",
                     "props": {
                         "imageWidth": "50%",
@@ -403,21 +410,8 @@
                 {
                     "component": "ProjectFullImage",
                     "props": {
-                        "src": "/images/mitrium/process-1.png",
-                        "alt": "First half of CAD process"
-                    }
-                },
-                {
-                    "component": "ProjectHeading",
-                    "props": {
-                        "value": "## One week surfacing project in solidworks"
-                    }
-                },
-                {
-                    "component": "ProjectFullImage",
-                    "props": {
-                        "src": "/images/mitrium/process-2.png",
-                        "alt": "Second half of CAD process"
+                        "src": "/images/mitrium/process-single.png",
+                        "alt": "CAD process"
                     }
                 },
                 {
@@ -432,18 +426,146 @@
         {
             "slug": "/poly",
             "title": "Poly",
+            "popColor": "#7C8D5A",
             "children": [
                 {
                     "component": "ProjectFullImage",
                     "props": {
-                        "src": "/images/mitrium/hero-shot.jpg",
-                        "alt": "Mitrium hero image"
+                        "isTitle": true,
+                        "src": "/images/poly/poly-gif.gif",
+                        "alt": "Mitrium hero image",
+                        "imageMaxWidth": "184vh"
                     }
                 },
                 {
                     "component": "ProjectHeading",
                     "props": {
-                        "value": "Poly"
+                        "value": "# Poly  \n## Open Source Garden Tools"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## The Goal  \nCreate the **most useful objects** out of the **least useful materials**",
+                        "smallText": true,
+                        "src": "/images/poly/pvc-scrap.jpg",
+                        "alt": "Water on the lid of osmo",
+                        "unfinished": true,
+                        "details": false
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "## The Result  \nPlans for a system of **easy to repair** tools made entirely from **PVC pipe**",
+                        "smallText": true,
+                        "imageSide": "left",
+                        "src": "/images/poly/community-garden.jpg",
+                        "alt": "Water on the lid of osmo",
+                        "details": false
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## The best solutions are all encompasing",
+                        "unfinished": true
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/poly/ethics-venn.png",
+                        "alt": "Venn diagram of three colors, each corresponding to good for people, good for environment, and good for energy"
+                    }
+                },
+                {
+                    "component": "ProjectColumns",
+                    "props": {
+                        "value": "## Specific Objectives",
+                        "columns": [
+                            {
+                                "value": "## **Increase gardening** accessability  \nGardening reduces stress, helps build community, allows for local production of healthy food."
+                            },
+                            {
+                                "value": "## **Decrease reliance** on larger industry  \nGiving people right to easily repair and autonomy over their tools reduces the need for external manufacturing, shipping, and wasteful supply chains."
+                            },
+                            {
+                                "value": "## **Repurpose waste** materials  \nDiffering proprietary formulas between PVC pipe makers makes recycling difficult and ineffective."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## Everything hinges on **accessibility**  \nThe product is not the object"
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "No adhesives  \n\nOne sheet of paper  \n\nTwo feet of pipe  \n\nThree pieces",
+                        "smallText": true,
+                        "src": "/images/poly/1-2-2-PVC40.png",
+                        "alt": "letter size sheet containing template outlines for cutting out the pieces of a poly hori hori",
+                        "pageImage": true,
+                        "details": false
+                    }
+                },
+                {
+                    "component": "ProjectHeading",
+                    "props": {
+                        "value": "## Distribution  \nPlans are freely available for download"
+                    }
+                },
+                {
+                    "component": "ProjectImageByImage",
+                    "props": {
+                        "src1": "/images/poly/homepage-stitch.png",
+                        "alt1": "Screengrab of the homepage of the distribution website for Poly",
+                        "pageImage1": true,
+                        "src2": "/images/poly/instructions-stitch.png",
+                        "alt2": "Screengrab of the instructions page of the distribution website for Poly",
+                        "pageImage2": true
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "Templates can be requested and pragmatically generated for **any combination of pipe sizes**.",
+                        "smallText": true,
+                        "imageSide": "left",
+                        "src": "/images/poly/blade-detail.png",
+                        "alt": "Water on the lid of osmo",
+                        "unfinished": true,
+                        "bleed": true,
+                        "details": false
+                    }
+                },
+                {
+                    "component": "ProjectImageByText",
+                    "props": {
+                        "value": "Step by step **instructions** are provided for construction with **hand tools** or power tools.",
+                        "smallText": true,
+                        "src": "/images/poly/cultivator-detail.png",
+                        "alt": "Water on the lid of osmo",
+                        "bleed": true,
+                        "details": false
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/poly/context-board.png",
+                        "alt": "Four images of a Poly hori hori. one is being used to dig snow, one is planted at the base of a shrub, one is resting on a stump, and one is pointed in the air with soil on it's tip."
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/poly/slideshow-wetland.png",
+                        "alt": "Poly sticking in the ground around some plants"
                     }
                 }
             ]
@@ -455,14 +577,76 @@
                 {
                     "component": "ProjectFullImage",
                     "props": {
-                        "src": "/images/mitrium/hero-shot.jpg",
-                        "alt": "Mitrium hero image"
+                        "isTitle": true,
+                        "src": "/images/hopper/hero-shot.png",
+                        "alt": "Hopper hero image"
                     }
                 },
                 {
                     "component": "ProjectHeading",
                     "props": {
-                        "value": "Hopper"
+                        "value": "# Hopper  \n## Train Surfer Backpack"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "pageImage": true,
+                        "src": "/images/hopper/kpp-page.png",
+                        "alt": "Profile page describing the needs of a train surfer and the ways a backpack might meet them"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/hopper/sketches.png",
+                        "alt": "Ideation sketches for hopper"
+                    }
+                },
+                {
+                    "component": "ProjectImageByImage",
+                    "props": {
+                        "src1": "/images/hopper/strap-sketch.png",
+                        "alt1": "Skectch of the strap side of Hopper depicting the bandana hanging strap, mesh pocket for glasses, zip pocket, and stuff pouch for gloves",
+                        "src2": "/images/hopper/strap-photo.png",
+                        "alt2": "photo depicting the same angle and features Hopper, which is resting against a train track"
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/hopper/sitting-pad.png",
+                        "alt": "Hopper laying on the bed of a lumber car with it's sitting pad unfolded."
+                    }
+                },
+                {
+                    "component": "ProjectColumns",
+                    "props": {
+                        "value": "",
+                        "columns": [
+                            {
+                                "src": "/images/hopper/zipper-pocket.png",
+                                "alt": "",
+                                "value": "**Roomy zippered hip belt pocket** Store everything close at hand"
+                            },
+                            {
+                                "src": "/images/hopper/nonslip-material.png",
+                                "alt": "",
+                                "value": "**Insulated sitting pad** With non-slip backing"
+                            },
+                            {
+                                "src": "/images/hopper/glove-pocket.png",
+                                "alt": "",
+                                "value": "**Glove stuff hip belt pocket** For super quick access"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "component": "ProjectFullImage",
+                    "props": {
+                        "src": "/images/hopper/sidebyside-sizes.png",
+                        "alt": "Hopper in its compressed configuration to the left of hopper in it's high capacity configuration. Both are resting on the rail of a train track."
                     }
                 }
             ]
@@ -472,16 +656,72 @@
             "title": "Drawings",
             "children": [
                 {
-                    "component": "ProjectFullImage",
+                    "component": "ProjectHeading",
                     "props": {
-                        "src": "/images/mitrium/hero-shot.jpg",
-                        "alt": "Mitrium hero image"
+                        "value": "# Drawings"
                     }
                 },
                 {
-                    "component": "ProjectHeading",
+                    "component": "ProjectImageCaptioned",
                     "props": {
-                        "value": "Drawings"
+                        "imageWidth": "100vw",
+                        "src": "/images/drawings/drill-composite.png",
+                        "alt": "Drawings of an impact driver and hammer drill. Each tool has an illustration, skeleton sketch, and thumbnail in perspective.",
+                        "titleValue": "Driver and Drill",
+                        "detailsValue": "2019 — 16” x 10” Pen and Marker, Digital Composite"
+                    }
+                },
+                {
+                    "component": "ProjectImageCaptioned",
+                    "props": {
+                        "src": "/images/drawings/snail-book.png",
+                        "alt": "Watercolor of a snail reading a book. She looks very peaceful",
+                        "titleValue": "Snail Babyyyyyy",
+                        "detailsValue": "2020 — 2 1/2” x 2 3/4”"
+                    }
+                },
+                {
+                    "component": "ProjectImageGallery",
+                    "props": {
+                        "images": [
+                            {
+                                "pageImage": true,
+                                "src": "/images/drawings/edo-1.png",
+                                "alt": "Edo period food production"
+                            },
+                            {
+                                "pageImage": true,
+                                "src": "/images/drawings/edo-2.png",
+                                "alt": "Edo period food distribution"
+                            },
+                            {
+                                "pageImage": true,
+                                "src": "/images/drawings/edo-3.png",
+                                "alt": "Edo period food preparation"
+                            }
+                        ],
+                        "titleValue": "Edo Period Food Ethnography",
+                        "detailsValue": "2019 — 11” x 8 1/2” x 3"
+                    }
+                },
+                {
+                    "component": "ProjectImageCaptioned",
+                    "props": {
+                        "imageWidth": "100vw",
+                        "src": "/images/drawings/goblin-getaway.png",
+                        "alt": "A two-page spread of a small watercolor notebook. The left page depicts natural structure with a backpack leaning against it. The right page shows a frying pan on an fire put, various food items, and a copy of Pojar",
+                        "titleValue": "Goblin Getaway",
+                        "detailsValue": "2019 — 11” x 3 1/2”"
+                    }
+                },
+                {
+                    "component": "ProjectImageCaptioned",
+                    "props": {
+                        "imageWidth": "100vw",
+                        "src": "/images/drawings/perspective-camera.png",
+                        "alt": "Two sketch-rendered views of a DSLR camera",
+                        "titleValue": "camera boyz",
+                        "detailsValue": "2019 — 10” x 15”"
                     }
                 }
             ]

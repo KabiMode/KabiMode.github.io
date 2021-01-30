@@ -1,4 +1,5 @@
 {
+    "homepage": "/",
     "sections": [
         {
             "title": "Products",
@@ -7,25 +8,19 @@
                     "title": "osmo",
                     "url": "/osmo",
                     "image": "/images/osmo/watercolor-thumbnail.png",
-                    "subtitle": "10 Week Project",
-                    "topics": "Process – Ethos",
-                    "description": "Challenging the importance of the fridge."
+                    "details": "**Process | Ethos**  \n10 Weeks  \n___  \nChallenging the importance of the fridge."
                 },
                 {
                     "title": "Mitrium",
                     "url": "/mitrium",
                     "image": "/images/mitrium/watercolor-thumbnail.png",
-                    "subtitle": "1 Week Project",
-                    "topics": "Surface Modeling",
-                    "description": "Oil and vinegar bottle."
+                    "details": "**Surface Modeling**  \n1 Week  \n___  \nOil and vinegar bottle."
                 },
                 {
                     "title": "Poly",
                     "url": "/poly",
                     "image": "/images/poly/watercolor-thumbnail.png",
-                    "subtitle": "2 Week Project",
-                    "topics": "Reuse – Ethos",
-                    "description": "Open source garden tools."
+                    "details": "**Reuse | Ethos**  \n2 Weeks  \n___  \nOpen source garden tools."
                 }
             ]
         },
@@ -36,9 +31,7 @@
                     "title": "Hopper",
                     "url": "/hopper",
                     "image": "/images/hopper/watercolor-thumbnail.png",
-                    "subtitle": "3 Week Project",
-                    "topics": "",
-                    "description": "Train surfer backpack"
+                    "details": "**Soft Goods | Craft**  \n3 Weeks  \n___  \nTrain surfer backpack"
                 }
             ]
         },
@@ -49,9 +42,7 @@
                     "title": "Drawings",
                     "url": "/drawings",
                     "image": "/images/drawings/watercolor-thumbnail.png",
-                    "subtitle": "",
-                    "topics": "",
-                    "description": ""
+                    "details": ""
                 }
             ]
         }

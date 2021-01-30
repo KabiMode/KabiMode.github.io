@@ -427,13 +427,14 @@
             "slug": "/poly",
             "title": "Poly",
             "popColor": "#7C8D5A",
+            "strongBold": true,
             "children": [
                 {
                     "component": "ProjectFullImage",
                     "props": {
                         "isTitle": true,
                         "src": "/images/poly/poly-gif.gif",
-                        "alt": "Mitrium hero image",
+                        "alt": "Animation of a Poly Hori Hori being disassembled and reassembled",
                         "imageMaxWidth": "184vh"
                     }
                 },
@@ -573,6 +574,8 @@
         {
             "slug": "/hopper",
             "title": "Hopper",
+            "popColor": "#333333",
+            "strongBold": true,
             "children": [
                 {
                     "component": "ProjectFullImage",

@@ -670,7 +670,7 @@
                         "imageWidth": "100vw",
                         "src": "/images/drawings/drill-composite.png",
                         "alt": "Drawings of an impact driver and hammer drill. Each tool has an illustration, skeleton sketch, and thumbnail in perspective.",
-                        "titleValue": "Driver and Drill",
+                        "titleValue": "",
                         "detailsValue": "2019 — 16” x 10” Pen and Marker, Digital Composite"
                     }
                 },
@@ -679,7 +679,7 @@
                     "props": {
                         "src": "/images/drawings/snail-book.png",
                         "alt": "Watercolor of a snail reading a book. She looks very peaceful",
-                        "titleValue": "Snail Babyyyyyy",
+                        "titleValue": "",
                         "detailsValue": "2020 — 2 1/2” x 2 3/4”"
                     }
                 },
@@ -723,7 +723,7 @@
                         "imageWidth": "100vw",
                         "src": "/images/drawings/perspective-camera.png",
                         "alt": "Two sketch-rendered views of a DSLR camera",
-                        "titleValue": "camera boyz",
+                        "titleValue": "",
                         "detailsValue": "2019 — 10” x 15”"
                     }
                 }

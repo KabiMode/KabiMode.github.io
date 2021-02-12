@@ -659,11 +659,23 @@
             "title": "Drawings",
             "children": [
                 {
-                    "component": "ProjectHeading",
+                    "component": "ProjectFullImage",
                     "props": {
-                        "value": "# Drawings"
+                        "imageWidth": "100vw",
+                        "imageMaxWidth": "230vh",
+                        "isTitle": true,
+                        "src": "/images/drawings/van-render.png",
+                        "alt": "Illustration of two views of a Kei class van. It looks strong and cute.",
+                        "titleValue": "",
+                        "detailsValue": "2021 — Pen, Marker, Digital"
                     }
                 },
+                    {
+                        "component": "ProjectHeading",
+                        "props": {
+                            "value": "# Drawings"
+                        }
+                    },
                 {
                     "component": "ProjectImageCaptioned",
                     "props": {

@@ -664,8 +664,8 @@
                         "imageWidth": "100vw",
                         "imageMaxWidth": "230vh",
                         "isTitle": true,
-                        "src": "/images/drawings/van-render.png",
-                        "alt": "Illustration of two views of a Kei class van. It looks strong and cute.",
+                        "src": "/images/drawings/bridge-spread.jpg",
+                        "alt": "Two page spread of a watercolor notebook. The left page has a sketch of a teapot and some tests for various pigments. The right has an illustration of a bridge over a road.",
                         "titleValue": "",
                         "detailsValue": "2021 — Pen, Marker, Digital"
                     }
@@ -717,6 +717,17 @@
                         ],
                         "titleValue": "Edo Period Food Ethnography",
                         "detailsValue": "2019 — 11” x 8 1/2” x 3"
+                    }
+                },
+                {
+                    "component": "ProjectImageCaptioned",
+                    "props": {
+                        "imageWidth": "100vw",
+                        "imageMaxWidth": "230vh",
+                        "src": "/images/drawings/van-render.png",
+                        "alt": "Illustration of two views of a Kei class van. It looks strong and cute.",
+                        "titleValue": "",
+                        "detailsValue": "2021 — Pen, Marker, Digital"
                     }
                 },
                 {

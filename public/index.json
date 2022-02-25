@@ -1,0 +1,50 @@
+{
+    "homepage": "/",
+    "sections": [
+        {
+            "title": "Products",
+            "slides": [
+                {
+                    "title": "osmo",
+                    "url": "/osmo",
+                    "image": "/images/osmo/watercolor-thumbnail.png",
+                    "details": "**Process | Ethos**  \n10 Weeks  \n___  \nChallenging the importance of the fridge."
+                },
+                {
+                    "title": "Mitrium",
+                    "url": "/mitrium",
+                    "image": "/images/mitrium/watercolor-thumbnail.png",
+                    "details": "**Surface Modeling**  \n1 Week  \n___  \nOil and vinegar bottle."
+                },
+                {
+                    "title": "Poly",
+                    "url": "/poly",
+                    "image": "/images/poly/watercolor-thumbnail.png",
+                    "details": "**Reuse | Ethos**  \n2 Weeks  \n___  \nOpen source garden tools."
+                }
+            ]
+        },
+        {
+            "title": "Textiles",
+            "slides": [
+                {
+                    "title": "Hopper",
+                    "url": "/hopper",
+                    "image": "/images/hopper/watercolor-thumbnail.png",
+                    "details": "**Soft Goods | Craft**  \n3 Weeks  \n___  \nTrain surfer backpack"
+                }
+            ]
+        },
+        {
+            "title": "Other",
+            "slides": [
+                {
+                    "title": "Drawings",
+                    "url": "/drawings",
+                    "image": "/images/drawings/watercolor-thumbnail.png",
+                    "details": ""
+                }
+            ]
+        }
+    ]
+}

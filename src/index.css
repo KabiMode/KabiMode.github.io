@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "Baskerville";
+    src: url('fonts/BASKVILL.TTF') format("truetype");
+}
+@font-face {
+    font-family: "Muli";
+    font-style: normal;
+    src: url('fonts/Muli-VariableFont_wght.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Muli";
+    font-style: italic;
+    src: url('fonts/Muli-Italic-VariableFont_wght.ttf') format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    font-family: "Muli";
+    font-size: calc(4px + 2vmin);
+    width: 100vw;
+    overflow: overlay;
+    background-color: white;
+}
+h1 {
+    font-family: "Baskerville";
+    font-size: calc(16px + 8vmin);
+    font-weight: normal;
+}
+h2 {
+    font-family: "Baskerville";
+    font-size: calc(8px + 4vmin);
+    font-weight: normal;
+}
+h3, h4 {
+    font-family: "Baskerville";
+}
+a{
+    color: #666666;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba( 64, 64, 64, .4);
+    border-radius: 5px;
+    /*transition: background-color 1s linear;*/
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba( 64, 64, 64, .6);
 }

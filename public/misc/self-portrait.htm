@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Rose</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+    @keyframes animatedBackground {
+        from { transform: translate(0px,0px); }
+        to { transform: translate(-120vh, calc(-120vh * 8.5 / 11)); } //x is 16 pixels, y is 32 pixels. final image is scaled 600%
+    }
+    body {
+        overflow: hidden;
+    }
+    #background {
+        position: absolute;
+        top: -100vh;
+        bottom: -100vh;
+        left: -400vw;
+        right: -400vw;
+        background-image: url("../images/misc/self-portrait/background.png");
+        background-size: 120vh;
+        animation: animatedBackground 12s linear infinite;
+        will-change: transform;
+    }
+    #leaves {
+        mix-blend-mode: multiply;
+        position: absolute;
+        height: 50%;
+        top: 40%;
+        right: 25%;
+        pointer-events: none;
+    }
+    #sky {
+        mix-blend-mode: multiply;
+        position: absolute;
+        width:150%;
+        left:-25%;
+        bottom: 90%;
+        pointer-events: none;
+    }
+    #ground {
+        mix-blend-mode: multiply;
+        position: absolute;
+        width:150%;
+        left:-25%;
+        top: 90%;
+        pointer-events: none;
+    }
+    #alt {
+        display: none;
+    }
+    @media only screen and (max-width: 413px) {
+        #portrait {
+            display: none;
+        }
+        #alt {
+            display: block;
+        }
+    }
+</style>
+<body>
+
+    <div id="portrait">
+        <div id="background"></div>
+        <img src="../images/misc/self-portrait/leaves.gif" alt="" id="leaves">
+        <img src="../images/misc/self-portrait/sky-watercolor.png" alt="" id="sky">
+        <img src="../images/misc/self-portrait/ground-watercolor.png" alt="" id="ground">
+    </div>
+    <h1 id="alt">Rose is bigger than that</h1>
+
+    <script>
+        document.getElementById("background").addEventListener('mousemove', e => {
+            console.log(e.clientY)
+            document.getElementById("sky").style.transform = "translateY(" + e.clientY/3 + "px)"
+            document.getElementById("ground").style.transform = "translateY(" + -e.clientY/3 + "px)"
+        });
+    </script>
+</body>
+</html>

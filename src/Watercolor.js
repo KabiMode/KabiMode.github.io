@@ -229,7 +229,7 @@ function WatercolorFollower(props) { //first segment
                 state: { from: "watercolor", to: "project" }
             }}>About</Link>
             <br/>
-            <span>© Rose Kirby | 2021</span><br/><br/>
+            <span>© Rose Kirby | 2022</span><br/><br/>
             {false &&
                 <a className="watercolor-follower-link" href="https://instagram.com" target="_blank" rel="noreferrer">instant gram</a>
             }

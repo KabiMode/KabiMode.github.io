@@ -470,7 +470,7 @@ function ProjectFooter(props){
                     state: { from: "project", to: "project" }
                 }}>About</Link>
                 <br />
-                <span>© Rose Kirby | 2021</span><br/><br/>
+                <span>© Rose Kirby | 2022</span><br/><br/>
                 <Link className="watercolor-follower-link"
                 to={{
                     pathname: "/",

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f7eb936.chunk.css",
-    "main.js": "/static/js/main.ebd0c718.chunk.js",
-    "main.js.map": "/static/js/main.ebd0c718.chunk.js.map",
+    "main.css": "/static/css/main.1160be1a.chunk.css",
+    "main.js": "/static/js/main.49564d63.chunk.js",
+    "main.js.map": "/static/js/main.49564d63.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a569b3c1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a569b3c1.js.map",
     "static/js/2.329dcf4e.chunk.js": "/static/js/2.329dcf4e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.4b7681f4.chunk.js": "/static/js/3.4b7681f4.chunk.js",
     "static/js/3.4b7681f4.chunk.js.map": "/static/js/3.4b7681f4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7f7eb936.chunk.css.map": "/static/css/main.7f7eb936.chunk.css.map",
+    "static/css/main.1160be1a.chunk.css.map": "/static/css/main.1160be1a.chunk.css.map",
     "static/js/2.329dcf4e.chunk.js.LICENSE.txt": "/static/js/2.329dcf4e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Muli-VariableFont_wght.821bcca5.ttf",
     "static/media/App.css": "/static/media/watercolor-background-tip.70e4d943.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.a569b3c1.js",
     "static/js/2.329dcf4e.chunk.js",
-    "static/css/main.7f7eb936.chunk.css",
-    "static/js/main.ebd0c718.chunk.js"
+    "static/css/main.1160be1a.chunk.css",
+    "static/js/main.49564d63.chunk.js"
   ]
 }

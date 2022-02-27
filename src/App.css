@@ -762,7 +762,7 @@
 .about-main-content {
     margin-top: ;
     flex: 1;
-    margin: calc(18px + 9vmin + 9px + 4.5vmin) calc(18px + 9vmin) calc(9px + 4.5vmin) calc(18px + 9vmin);
+    margin: calc(18px + 9vmin + 9px + 4.5vmin) calc(18px + 9vmin) calc(4px + 2vmin + 50px) calc(18px + 9vmin);
 }
 .about-main-image {
     flex: 1;

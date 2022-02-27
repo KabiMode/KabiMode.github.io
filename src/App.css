@@ -222,6 +222,11 @@
 .watercolor-sidebar > div{
     max-width: 650px;
 }
+.watercolor-ribbons img{
+  height: calc(14px + 7vmin);
+  max-width: calc(18px + 9vmin);
+  margin-block-start: 2em;
+}
 
 .watercolor-sheet a{
     width: 98.7%;
@@ -422,6 +427,7 @@
 }
 
 .project-full-image {
+    position: relative;
     display: flex;
     justify-content: center;
     max-width: 150vh;
@@ -438,11 +444,27 @@
 .project-full-image.title {
     max-height: calc(100vh - 28px - 14vmin);
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .project-full-image.full-bleed img{
     max-width: none;
     width: 140vw;
+}
+.project-full-image-ribbons{
+    position: absolute;
+    bottom: calc(-7px + -3.5vmin);
+    left: calc(18px + 9vmin);
+}
+.project-full-image-ribbons p{
+    margin: 0;
+}
+.project-full-image-ribbons img{
+    height: calc(14px + 7vmin);
+    max-width: calc(18px + 9vmin);
+}
+.project-full-image-ribbons a{
+    display: inline-block;
+    margin-right: calc(2px + 1vmin);
 }
 .project-heading{
     max-width: 150vh;

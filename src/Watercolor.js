@@ -149,7 +149,7 @@ function WatercolorLeader(props) { //first segment
     </ul>
   </div>
 </div> Design is My Passion</h1>
-            <p>These are things I made! I care about community and humans. I'm also real good at CAD and sewing.</p>
+            <p>These are things I made! I care about community and humans. I am also real good at CAD and sewing.</p>
             <div className="watercolor-sheet-tip"></div>
         </div>
         <div className="watercolor-introduction">
@@ -208,6 +208,7 @@ function WatercolorSlide(props) { //individual projects
                 }}>{props.slide.title}</Link></h1>
 
                 <ReactMarkdown className="" children={props.slide.details} />
+                {props.slide.ribbons ? <ReactMarkdown className="watercolor-ribbons" linkTarget="_blank" children={props.slide.ribbons} /> : null}
             </div>
         </div>
     </div>

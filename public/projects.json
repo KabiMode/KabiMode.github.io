@@ -10,7 +10,8 @@
                     "props": {
                         "isTitle": true,
                         "src": "/images/osmo/hero-shot.png",
-                        "alt": "osmo hero image"
+                        "alt": "osmo hero image",
+                        "ribbons": "[![2022 IHA Student Design Competition second place winner](/images/osmo/GIA-white-on-pink.png \"Global Innovation Award for Excellence in Student Design recipiant\")](https://www.theinspiredhomeshow.com/awards/gia-student/)"
                     }
                 },
                 {

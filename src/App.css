@@ -435,7 +435,6 @@
     margin: 10vmin 0;
 }
 .project-full-image img {
-    /* max-height: calc(100vh - 28px - 14vmin); */
     width: 100%;
     max-width: inherit;
     align-self: center;
@@ -445,6 +444,9 @@
     max-height: calc(100vh - 28px - 14vmin);
     margin: 0;
     /*overflow: hidden;*/
+}
+.project-full-image.title img {
+    max-height: calc(100vh - 28px - 14vmin);
 }
 .project-full-image.full-bleed img{
     max-width: none;

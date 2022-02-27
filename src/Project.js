@@ -241,7 +241,9 @@ function componentLookup(name, props = {}) {
 function ProjectFullImage(props){ //try to fill page, but if not, its all good
     return(
         <div className={"project-full-image".concat(props.props.isTitle ? " title" : "").concat(props.props.bleed !== undefined ? " " + props.props.bleed : "")} style={((props.props.imageMaxWidth !== undefined) ? {maxWidth: props.props.imageMaxWidth} : {})}>
-            <img src={props.props.src} alt={props.props.alt} style={((props.props.imageWidth !== undefined) ? {width: props.props.imageWidth} : {})} className={(props.props.pageImage ? "page-image" : "")} />
+
+                <img src={props.props.src} alt={props.props.alt} style={((props.props.imageWidth !== undefined) ? {width: props.props.imageWidth} : {})} className={(props.props.pageImage ? "page-image" : "")} />
+
             {props.props.ribbons ? <ReactMarkdown className="project-full-image-ribbons" linkTarget="_blank" children={props.props.ribbons} /> : null}
         </div>
     );
